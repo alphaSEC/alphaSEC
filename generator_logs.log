@@ -1,0 +1,16 @@
+
+datetime,
+process,
+owner,
+type of event,
+other {
+	src ip:port
+	dst ip:port
+	file_name
+}
+
+
+1. brutforce password
+2. brutforce password susseccful
+
+1000
