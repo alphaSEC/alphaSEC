@@ -54,7 +54,7 @@ int main(int /*argc*/, char **/*argv[]*/)
 		dir.mkdir("logs");
 	
 	//QCoreApplication app(argc, argv);  //(we don't use these)
-	QFile file("logs/" + dtNow.toString("yyyy-MM-dd-hh-mm-ss") + "_out.log");
+	QFile file("logs/" + dtNow.toString("yyyy-MM-dd-hh-mm-ss") + "_log.js");
 	file.open(QIODevice::WriteOnly | QIODevice::Text);
 	QTextStream out(&file);
 	
